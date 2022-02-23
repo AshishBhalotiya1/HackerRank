@@ -13,13 +13,13 @@ class Solution:
     #Complete this method
         insert_Node = Node(data)
         if head == None:
-                head = insert_Node
+            head = insert_Node
         
         else:
-                temp = head
-                while temp.next:
-                        temp = temp.next
-                temp.next = insert_Node
+            temp = head
+            while temp.next:
+                temp = temp.next
+            temp.next = insert_Node
         return head
                 
                 
